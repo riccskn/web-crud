@@ -1,0 +1,13 @@
+postgres:
+  host: ${POSTGRES_HOST:localhost:5432}
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://${postgres.host}/users
+    username: amigoscode
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

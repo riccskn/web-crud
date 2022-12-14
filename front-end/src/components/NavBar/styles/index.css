@@ -1,0 +1,23 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3700b3;
+    padding: 8px;
+}
+
+#navbar form {
+    gap: .2em;
+}
+
+#navbar input {
+    padding: 12px 12px;
+    border-style: none;
+    font-size: 15px;
+}
+
+#navbar input:focus {
+    border-style: none;
+    outline: none !important;
+
+}

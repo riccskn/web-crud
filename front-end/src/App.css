@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+
+#btn-create {
+  background-color: #7f2aff;
+  position:absolute;
+  bottom: 5%;
+  right: 50%;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 16px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-create:hover {
+  cursor: pointer;
+}
+
+#btn-create svg {
+  padding-right: 3px;
+}
+
+#pg-title {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.input-row {
+
+}
+
+#form-area {
+  margin: 20px auto;
+  text-align: center;
+}
+#form-area form {
+  margin: auto;
+}
+
+#form-area svg {
+  color: #787a80;
+  margin-right: 4px;
+}
+
+#form-area input {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+#form-area input:focus {
+  border-color: #3700b3;
+  outline: none !important;
+  padding-left: 10px;
+
+}
+
+#no-icon {
+  margin-left: 25px;
+}
+
+#save-btn {
+  background-color: #7f2aff;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 16px;
+  border-style: none;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
